@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties osx_installerId="" architecture="2" exportMode="0" tv_icon="" html5_fbinstant="0" orientation="1" macos_category="5" version="1.0" winrt_package="com.yourdomain.yourapp" build_number="1" mainluaOnly="0" html5_crash="" html5_mem="256" macos_bundle="com.yourdomain.yourapp-macos" disableSplash="0" splash_h_image="" html5_fbload="100" scaleMode="5" osx_signingId="" html5_pwa="0" app_icon="" autorotation="0" retinaDisplay="3" splash_v_image="" backgroundColor="#ffffff" osx_org="GiderosMobile" mouseToTouch="1" atv_bundle="com.yourdomain.yourapp-atv" html5_pack="1" logicalWidth="480" logicalHeight="800" html5_host="" mouseTouchOrder="0" osx_category="5" win_org="mokatunprod" app_name="" osx_bundle="com.yourdomain." winrt_org="GiderosMobile" vsync="1" html5_wasm="1" fps="60" iosDevice="0" ios_bundle="com.yourdomain." touchToMouse="1" win_domain="mokalux.com" windowWidth="0" windowHeight="0" splashScaleMode="0" html5_symbols="0" encryptAssets="1" encryptCode="1" osx_domain="giderosmobile.com" version_code="1">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="0" name="Easing"/>
+   <plugin enabled="1" name="JSON"/>
+   <plugin enabled="0" name="LuaFileSystem"/>
+   <plugin enabled="0" name="Media plugin"/>
+   <plugin enabled="0" name="ReactPhysics3D"/>
+   <plugin enabled="0" name="SceneManager"/>
+   <plugin enabled="0" name="Threads"/>
+   <plugin enabled="0" name="VirtualPad"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property name="androidPath" value=""/>
+    <property name="androidSdk" value=""/>
+    <property name="androidTarget" value="26"/>
+    <property name="androidTools" value=""/>
+    <property name="buildAab" value="1"/>
+    <property name="buildApk" value="0"/>
+    <property name="deployApk" value="0"/>
+    <property name="forOculus" value="0"/>
+    <property name="javaPath" value=""/>
+    <property name="keyAlias" value=""/>
+    <property name="keyStore" value=""/>
+    <property name="oculusHT" value="0"/>
+    <property name="oculusHTR" value="0"/>
+    <property name="packageName" value="com.yourdomain.yourapp"/>
+    <property name="timestampApk" value="0"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="classes">
+  <file name="assets/classes/buttons.lua"/>
+ </folder>
+ <folder name="fbx_conv">
+  <file name="assets/fbx_conv/EULA.txt" excludeFromEncryption="1"/>
+  <file name="assets/fbx_conv/fbx-conv.exe" excludeFromEncryption="1"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>
